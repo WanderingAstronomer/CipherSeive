@@ -1,0 +1,23 @@
+# Maven
+target/
+
+# Java
+*.class
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Sensitive data - block real password files
+*.csv
+*.json
+!test_files/*.csv
+!test_files/*.json
